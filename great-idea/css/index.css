@@ -222,48 +222,55 @@ footer {
   .flex-container{
     display: flex;
     width: 50%;
+    flex-direction: row;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
   }
   .digitaldesign{
     
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 50%;
+    width: 400px%;
+    height: 20%;
     
     
     
   }
   .uxui{
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 40%;
-    height:30%;
-    flex-direction: row;
+    width: 400px;
+    height:20%;
+
   }
   .digitalmarketing{
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 40%;
+    width: 400px;
+    height: 20%;
   }
   .webdevolpment{
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 40%;
+    width: 400px;
+    height: 20%;
   }
   .ios{
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 40%;
+    width: 400px;
+    height:20%;
   }
   .andriod{
     border: 1px solid black;
-    margin: auto;
+    margin: 25px;
     padding: 20px;
-    width: 40%;
+    width: 400px;
+    height: 20%;
   }
