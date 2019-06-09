@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 /* header */
@@ -209,68 +210,19 @@ footer {
   font-size: 14px;
 }
 /*new line of code*/
-
-.contain{
+.flex-container .row{
+  border: 1px solid blue;
   display: flex;
-  }
-  .bb a{
-    margin-right: 65px;
-    font-size: 14px;
-    color: gray;
-    text-decoration: none;
-  }
-  .flex-container{
-    display: flex;
-    width: 50%;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .digitaldesign{
-    
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px%;
-    height: 20%;
-    
-    
-    
-  }
-  .uxui{
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px;
-    height:20%;
+ justify-content: space-between;
+ margin: 40px 0;
+ background-color: lightgray;
 
-  }
-  .digitalmarketing{
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px;
-    height: 20%;
-  }
-  .webdevolpment{
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px;
-    height: 20%;
-  }
-  .ios{
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px;
-    height:20%;
-  }
-  .andriod{
-    border: 1px solid black;
-    margin: 25px;
-    padding: 20px;
-    width: 400px;
-    height: 20%;
-  }
+}
+.flex-container .digitaldesign{
+  width: 400px;
+  border: 1px solid green;
+
+}
+
+
+
